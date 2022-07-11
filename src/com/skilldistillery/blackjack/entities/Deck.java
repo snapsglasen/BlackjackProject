@@ -21,14 +21,15 @@ public class Deck {
 
 		}
 	}
-	
+
 	public Card dealCard() {
 		Card card = cardDeck.remove(0);
 		return card;
 	}
-	
+
 	public int checkDeckSize() {
-		return cardDeck.size();	}
+		return cardDeck.size();
+	}
 
 	public void shuffle() {
 		Collections.shuffle(cardDeck);
